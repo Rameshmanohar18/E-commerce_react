@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import profile from "../assests/profile.png";
+import profile from "../assests/profile1.png";
 import cartIcon from "../assests/cart.png";
 import { useSelector } from 'react-redux';
 import { Link, Outlet } from 'react-router-dom';
@@ -32,7 +32,7 @@ export const Navbar = () => {
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
                         }}>
-                            eCommerce</p>
+                            E-Commerce</p>
                     </Link>
                     <Link to="/allProducts">
                         <p className='text-2xl font-semibold text-white'>All Products</p>
@@ -41,7 +41,7 @@ export const Navbar = () => {
 
                 {/* User profile and cart icons with item count */}
                 <div className='flex flex-row gap-5 items-center relative'>
-                    <p className='text-xl font-semibold '>Dinesh Kumar</p>
+                    <p className='text-xl font-semibold '>Ramesh </p>
                     <div className='w-10 h-10'>
                         <img src={profile} alt="user" />
                     </div>

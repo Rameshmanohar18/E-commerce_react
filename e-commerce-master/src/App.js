@@ -5,7 +5,7 @@ import { ProductDetails } from "./components/products/ProductDetails";
 import { AddProduct } from "./components/products/AddProduct";
 import Cart from "./components/cart/Cart";
 import ErrorPage from "./components/error/ErrorPage";
-import image from "./assests/online-shopping-image.avif";
+import image from "./assests/ecommerce-online-shopping-digital-market-internet-technology-shopping-cart-business-icon-vector-illustration-fantastic-technology_252172-1507.avif";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { fetchProducts } from "./redux/ecommerceSlice"; // Import your fetchProducts action
